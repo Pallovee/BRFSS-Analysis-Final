@@ -15,10 +15,10 @@ Historical Weather Data: Fetching weather data using APIs was expensive due to l
 
 Created a script to split the large .xpt SAS file into three CSV chunks.
 
-These chunks were hosted on Hugging Face Datasets (instead of GitHub) due to GitHub's file size limitations.
-[Data Chunk 1]([http://www.example.com](https://huggingface.co/datasets/PallaviNarra/LLCP2023/resolve/main/part_01.csv)  
-[Data Chunk 2]([http://www.example.com](https://huggingface.co/datasets/PallaviNarra/LLCP2023/resolve/main/part_02.csv)  
-[Data Chunk 3]([http://www.example.com](https://huggingface.co/datasets/PallaviNarra/LLCP2023/resolve/main/part_03.csv)  
+These chunks were hosted on Hugging Face Datasets (instead of GitHub) due to GitHub's file size limitations.  
+[Data Chunk 1](https://huggingface.co/datasets/PallaviNarra/LLCP2023/resolve/main/part_01.csv)  
+[Data Chunk 2](https://huggingface.co/datasets/PallaviNarra/LLCP2023/resolve/main/part_02.csv)  
+[Data Chunk 3](https://huggingface.co/datasets/PallaviNarra/LLCP2023/resolve/main/part_03.csv)  
 ### ETL Breakdown:
 
 Each chunk is processed via its own extract, transform, and load step.

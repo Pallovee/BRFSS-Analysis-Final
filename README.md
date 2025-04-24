@@ -59,21 +59,20 @@ Edit
 .
 ├── flows/                        # Kestra workflow YAMLs
 ├── dataset/                     # Dataset chunks and weather data
-├── scripts/
-│   ├── extract1.py              # Extract chunk 1
-│   ├── extract2.py
-│   ├── extract3.py
-│   ├── transform.py             # Transform logic used for all chunks
-│   ├── load.py                  # Loads CSV to PostgreSQL
-│   ├── get_weather_data.py
-│   └── split_dataset.py
-├── BRFSS_Analysis.pdf           # Final documentation
+├── extract1.py              # Extract chunk 1
+├── extract2.py
+├── extract3.py
+├── transform.py             # Transform logic used for all chunks
+├── load.py                  # Loads CSV to PostgreSQL
+├── get_weather_data.py
+└── split_dataset.py
+├── BRFSS_Analysis.pdf           # Metabase Dashboard
 ├── BRFSS_ETL.ipynb              # Jupyter notebook for exploration
 ├── brfss_analysis.pbix          # Power BI dashboard
 ├── all sql cmnds.sql            # SQL commands
 ├── Dockerfile                   # Custom Kestra image with Python deps
-├── docker-compose.yml           # Kestra + PostgreSQL setup
-├── README.md                    # You are here!
+├── docker-compose.yml           # Kestra setup
+├── README.md                    
 └── .gitignore                   # Ignores dataset folder
 ```
 ▶️ How to Run

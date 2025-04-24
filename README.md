@@ -1,4 +1,4 @@
-🧠 BRFSS ETL & Mental Health Analysis Dashboard
+#🧠 BRFSS ETL & Mental Health Analysis Dashboard
 This project aims to process and analyze the 2023 BRFSS dataset (Behavioral Risk Factor Surveillance System) to uncover insights into mental health trends across the U.S. It enriches survey responses with historical weather data and visualizes mental health risk using Power BI.
 
 🧩 Challenges Faced
@@ -100,5 +100,6 @@ Filters for Gender, Race, Income
 
 Weather-Linked Risk Indicators
 
-<!-- Replace this with a real image from your Power BI -->
+![image](https://github.com/user-attachments/assets/e0930cb9-fa84-49dc-9a02-606aff0e69a3)
+
 

@@ -49,7 +49,7 @@ Feature Engineering:
 Created binary PoorMentalHealth flag (days ≥ 14).
 
 Categorized mental health into High Distress, Moderate, and Low.
-
+```bash
 🗂️ Folder Structure
 graphql
 Copy
@@ -73,6 +73,7 @@ Edit
 ├── docker-compose.yml           # Kestra + PostgreSQL setup
 ├── README.md                    # You are here!
 └── .gitignore                   # Ignores dataset folder
+```
 ▶️ How to Run
 🔄 Start Kestra + PostgreSQL
 bash
